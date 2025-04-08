@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mobile Library</h1>
+
+        <!-- Search Section -->
+        <section class="search">
+            <h2>Search Books</h2>
+            <input type="text" id="search" placeholder="Search by title or author..." oninput="searchBooks()">
+            <ul id="book-list"></ul>
+        </section>
+
+        <!-- Borrowing History Section -->
+        <section class="history">
+            <h2>Borrowing History</h2>
+            <ul id="history-list"></ul>
+        </section>
+
+        <!-- Discover New Books Section -->
+        <section class="discover">
+            <h2>Discover New Books</h2>
+            <ul id="discover-list"></ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
